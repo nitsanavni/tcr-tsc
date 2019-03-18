@@ -10,7 +10,7 @@
         // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
         // "declarationMap": true,                /* Generates a sourcemap for each corresponding '.d.ts' file. */
         // "sourceMap": true,                     /* Generates corresponding '.map' file. */
-        "outFile": "../built/local/solver.js" /* Concatenate and emit output to single file. */,
+        "outFile": "../solver.impl.js" /* Concatenate and emit output to single file. */,
         // "outDir": "../built/src" /* Redirect output structure to the directory. */,
         // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
         "composite": true /* Enable project compilation */,
@@ -57,6 +57,5 @@
         // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
         // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
     },
-    "files": ["solver/solver.ts"],
-    "references": [{ "path": "solver/impl", "prepend": true }]
+    "files": ["impl.ts"]
 }
