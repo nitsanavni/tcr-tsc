@@ -7,3 +7,5 @@ namespace deps {
         return "hello solver";
     }
 }
+
+console.log(deps.helloSolver());
