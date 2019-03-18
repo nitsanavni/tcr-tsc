@@ -2,6 +2,6 @@ const solve = deps.solve;
 
 describe("solver", () => {
     it("should test", () => {
-        expect(solve()).toEqual("hello solver");
+        expect(solve()).toEqual("hello solver impl");
     });
 });
