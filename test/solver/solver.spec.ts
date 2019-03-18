@@ -1,1 +1,3 @@
-deps.helloSolver();
+const hello = deps.helloSolver;
+
+hello();
