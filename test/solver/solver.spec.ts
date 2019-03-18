@@ -1,8 +1,7 @@
-const hello = deps.helloSolver;
+const solve = deps.solve;
 
 describe("solver", () => {
     it("should test", () => {
-        expect(hello()).toEqual("hello solver");
-        expect(hello()).toEqual("hello solver");
+        expect(solve()).toEqual("hello solver");
     });
 });
