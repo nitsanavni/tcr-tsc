@@ -1,0 +1,1 @@
+./build && ./test-me && ./commit || ./revert

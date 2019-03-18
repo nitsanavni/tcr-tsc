@@ -9,3 +9,5 @@ namespace deps {
 }
 
 console.log(deps.helloSolver());
+console.log(deps.helloSolver());
+console.log(deps.helloSolver());
