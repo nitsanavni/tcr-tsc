@@ -1,5 +1,9 @@
 namespace deps {
-    export function helloSolver() {
-        console.log("hello solver");
+    export function helloSolver(): string {
+        return "hello solver";
+    }
+
+    export function solve(): string {
+        return "hello solver";
     }
 }

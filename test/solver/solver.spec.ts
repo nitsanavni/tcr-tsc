@@ -1,3 +1,8 @@
 const hello = deps.helloSolver;
 
-hello();
+describe("solver", () => {
+    it("should test", () => {
+        expect(hello()).toEqual("hello solver");
+        expect(hello()).toEqual("hello solver");
+    });
+});
