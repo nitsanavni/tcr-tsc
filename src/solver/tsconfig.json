@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
-        "outFile": "../../built/local/tsc.js",
+        "outFile": "../../built/local/solver.js",
+
+        "module": "system",
 
         "pretty": true,
-        "lib": ["es2015.iterable", "es5"],
+        "lib": ["es2015.iterable", "es5", "dom"],
         "target": "es5",
         "rootDir": ".",
 
