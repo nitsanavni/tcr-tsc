@@ -1,1 +1,3 @@
-console.log("hello world");
+export function helloSolver() {
+    console.log("hello solver");
+}
