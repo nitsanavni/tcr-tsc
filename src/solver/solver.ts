@@ -1,3 +1,5 @@
-export function helloSolver() {
-    console.log("hello solver");
+namespace deps {
+    export function helloSolver() {
+        console.log("hello solver");
+    }
 }
