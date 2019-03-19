@@ -1,6 +1,5 @@
 while true
 do
-    git pull --rebase
-    git push origin master
+    ./sync
     ./tcr
 done
