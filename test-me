@@ -1,1 +1,1 @@
-node_modules/.bin/istanbul cover jasmine built/local/test.js && node_modules/.bin/istanbul check --statements 100 --branches 100
+node_modules/.bin/istanbul cover node_modules/.bin/jasmine built/local/test.js && node_modules/.bin/istanbul check --statements 100 --branches 100
