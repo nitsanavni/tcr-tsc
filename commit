@@ -1,1 +1,1 @@
-git commit -am "working" || echo "no commit"
+GIT_COMMITTER_NAME='TCR' GIT_COMMITTER_EMAIL='' git commit -am "working" || echo "no commit"
